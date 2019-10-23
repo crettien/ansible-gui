@@ -3,7 +3,7 @@
   tasks:
   - name: copy tcp_check.conf
     copy:
-      src: pve/etc/datadog-agent/conf.d/tcp_check.d/conf.yaml
+      src: conf.yaml
       dest: /etc/datadog-agent/conf.d/tcp_check.d/conf.yaml
 
   - name: restart datadog-agent
