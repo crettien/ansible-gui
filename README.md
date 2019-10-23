@@ -1,2 +1,4 @@
 # ansible-gui
-A gui to quickly generate ansible playbooks and scripts based on predefined templates
+
+Un ihm pour générer rapidement des playbooks et des scripts basés sur des modèles prédéfinis.
+
