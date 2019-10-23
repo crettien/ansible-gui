@@ -1,0 +1,15 @@
+init_config:
+
+instances:
+  - name: ovh
+    host: auth.cloud.ovh.net
+    port: 443
+    timeout: 10
+    collect_response_time: true
+
+  - name: nas
+    host: 101.203.204.15
+    port: 443
+    timeout: 10
+    collect_response_time: true
+
